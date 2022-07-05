@@ -24,6 +24,7 @@ fan-threshold60.bin
 fan-threshold65.bin
 fan-threshold70.bin
 fan-threshold75.bin
+fan-threshold80.bin
 frontend.js
 ftp.bin
 goldhen_2.3b2.bin
