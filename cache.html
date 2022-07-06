@@ -29,7 +29,7 @@ text-decoration: none;
 <script>
 history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));setTimeout(function(){window.msgs2.innerHTML="离线缓存加载进度: " + Percent + "%";},500)}
-function DisplayCacheProgress(){setTimeout(function(){window.msgs2.innerHTML="离线缓存加载完成 ✔";},1500);setTimeout(function(){window.msgs2.innerHTML="关闭网络，请重新打开页面！";},3500);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+function DisplayCacheProgress(){setTimeout(function(){window.msgs2.innerHTML="离线缓存加载完成 ✔";},1500);setTimeout(function(){window.msgs2.innerHTML="关闭网络，请重新打开页面 ✔";},3500);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
 <h1 id=msgs style='font-size:30px;text-align:center;color:#FFFF00;text-shadow: 4px 4px 4px black;'>PS49.00 Jailbreak V3.0 BY:BlurayHG</h1>
 <hr>
