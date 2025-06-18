@@ -31,7 +31,7 @@ fetch('/version.json', { cache: 'no-store' })
   })
   .catch(err => {
     const notice = document.getElementById('version_notice');
-     notice.style.display = 'block';
+    notice.style.display = 'block';
     notice.style.color = '#b71c1c';
     notice.style.backgroundColor = '#ffcdd2';
     notice.style.borderColor = '#d32f2f';
