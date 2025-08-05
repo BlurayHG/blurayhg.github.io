@@ -131,7 +131,7 @@ export function load_DisableUpdates(){
 }
 
 export function load_EnableUpdates(){
-    Loadpayloadlocal("./payloads/Bins/Tools/enbaleupdates.bin");
+    Loadpayloadlocal("./payloads/Bins/Tools/enableupdates.bin");
 }
 
 export function load_ExitIDU(){
